@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.tat.tempconverter.TempConverterActivity">
+
+    <TextView
+        android:id="@+id/mCelciusLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Celcius"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.047"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.212" />
+
+    <TextView
+        android:id="@+id/mFahrenheitLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fahrenheit"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="88dp" />
+
+    <TextView
+        android:id="@+id/mDegreesLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Degrees"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="66dp" />
+
+    <TextView
+        android:id="@+id/mTempConverterLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Temp Converter"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="-3dp"
+        tools:layout_editor_absoluteY="-2dp" />
+
+    <EditText
+        android:id="@+id/FahrenHeitEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="71dp" />
+
+</android.support.constraint.ConstraintLayout>
